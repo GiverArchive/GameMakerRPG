@@ -16,11 +16,14 @@ if(back && place_free(x, y + spd))
 if(right && place_free(x + spd, y))
 {
 	x += spd;
+	image_index = 1;
 }
 
 if(left && place_free(x - spd, y))
 {
 	x -= spd;
+	image_index = -1;
 }
 
+depth = -y;
 camera_set_view_pos(view_camera[0], x - view_wport[0] / 2, y - view_hport[0] / 2);
