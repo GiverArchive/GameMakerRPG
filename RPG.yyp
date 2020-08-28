@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "436afd23-1ce4-4273-a2ee-68e2bcac9133",
+            "Value": {
+                "id": "190edb9e-2a6b-4382-8cc2-e6071e3d3d56",
+                "resourcePath": "objects\\obj_arrow\\obj_arrow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4d5760e7-358c-4f42-a4d7-0dcedaabee73",
             "Value": {
                 "id": "bfee44fa-52f4-435e-8a7c-26901775e733",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "c05007fc-17ae-4086-b8d5-510ef0b1d639",
+            "Value": {
+                "id": "db0ef4a8-ed6f-44f7-800b-832593d0d6d3",
+                "resourcePath": "sprites\\spr_arrow\\spr_arrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c166e7dc-ffe1-448e-a8de-a4cbf4988797",
             "Value": {
                 "id": "4a9387e1-f0f9-4f6a-a491-7bf1b74b5cdc",
@@ -239,6 +255,14 @@
             }
         },
         {
+            "Key": "ccfe1991-6aca-49a2-b268-3a6440603781",
+            "Value": {
+                "id": "7bc2dc94-b65a-4212-8f04-9475cca56eaf",
+                "resourcePath": "rooms\\level_1\\level_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cfad632e-0f92-4d15-bfc4-c31cff20b4d5",
             "Value": {
                 "id": "18dd0391-78f2-4878-acbe-1f8e4169564b",
@@ -252,6 +276,14 @@
                 "id": "9b26bc71-38e3-4258-b2bc-23c88f51e67a",
                 "resourcePath": "views\\d368c7e5-6df1-4c2f-b6e2-8e427c011d36.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d732335b-c516-47fa-bd4e-cdda2eb173e7",
+            "Value": {
+                "id": "05fccce9-4e33-4bec-a9f6-22c853875d62",
+                "resourcePath": "sounds\\sound_hit\\sound_hit.yy",
+                "resourceType": "GMSound"
             }
         },
         {

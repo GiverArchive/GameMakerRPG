@@ -25,6 +25,15 @@ if(left && place_free(x - spd, y))
 	image_index = -1;
 }
 
+if(mouse_check_button_pressed(mb_left))
+{
+	var arrow = instance_create_depth(x, y, -1, obj_arrow);
+	var dir = point_direction(x, y, mouse_x, mouse_y);
+	arrow.image_angle = dir;
+	arrow.direction = dir;
+	arrow.speed = 10;
+}
+
 if(place_meeting(x, y, obj_enemy))
 {
 	if(random(100) < 30)
@@ -36,8 +45,22 @@ if(place_meeting(x, y, obj_enemy))
 		}
 		else
 		{
-			room_restart();
+			room_goto(room_first);
 		}
+	}
+}
+
+if(pontos >= 25)
+{
+	pontos = 0;
+	
+	if(room == room_last)
+	{
+		room_goto(room_first);
+	}
+	else
+	{
+		room_goto_next();
 	}
 }
 
